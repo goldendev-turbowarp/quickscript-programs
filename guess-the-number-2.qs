@@ -12,9 +12,9 @@ clear
 text "0" "100" "#00a2ff" "150" "== guess the number =="
 goto "win" "equal" "!input" "!number"
 jump "2" "not less" "!input" "!number"
-text "0" "100" "#202020" "150" "wrong! less."
+text "0" "0" "#202020" "150" "wrong! less."
 jump "2" "not greater" "!input" "!number"
-text "0" "100" "#202020" "150" "wrong! more."
+text "0" "0" "#202020" "150" "wrong! more."
 
 goto "loop"
 
