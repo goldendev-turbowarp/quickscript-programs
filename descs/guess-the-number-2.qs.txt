@@ -1,3 +1,4 @@
 a game where you have to guess a number from 1 - 100
-
+-
+-
 easier and less rng version from "guess-the-number.qs"
